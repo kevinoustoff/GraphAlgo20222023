@@ -28,6 +28,10 @@ public class Sommet {
     public int getId() {
         return id;
     }
+
+    public void setVisited(boolean visited) {
+        this.visited = visited;
+    }
     
     
 
@@ -42,6 +46,19 @@ public class Sommet {
     public void addVoisin(Arete arete){
         this.voisins.add(arete);
     }
+
+    public void setVoisins(List<Arete> voisins) {
+        this.voisins = voisins;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+    
+    
+    
+    
+    
     
     
     
